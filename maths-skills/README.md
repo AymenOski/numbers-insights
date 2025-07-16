@@ -12,16 +12,16 @@ The results are rounded to the nearest integer and displayed in the terminal.
 
 ---
 ## 🔧 Installation (for C users)
-To run this program, you need to have a C compiler installed on your system. You can download and install a C compiler from the official website of your operating system
+To run this project, you need:
+
+Node.js (a recent version that supports ES Modules)
 
 ---
 
 ## 🚀 How to Compile & Run
 Use the following command to compile the program using `GCC` and downloading assets:
 ```
-git clone https://learn.zone01oujda.ma/git/ayazizi/math-skills.git
-
-gcc -g -o main main.c -lm
+git clone https://github.com/AymenOski/numbers-insights/tree/main/maths-skills
 
 curl -O https://assets.01-edu.org/stats-projects/stat-bin-dockerized.zip
 
