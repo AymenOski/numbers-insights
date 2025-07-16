@@ -11,10 +11,15 @@ This program reads a file containing numbers and calculates the following statis
 The results are rounded to the nearest integer and displayed in the terminal.
 
 ---
-## 🔧 Installation (for C users)
+## 🔧 Installation
 To run this project, you need:
 
 Node.js (a recent version that supports ES Modules)
+
+---
+
+## 🔧 Installation (for C users)
+You can go here :https://github.com/AymenOski/math-skills
 
 ---
 
