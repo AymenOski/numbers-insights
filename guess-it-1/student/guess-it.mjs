@@ -16,6 +16,8 @@ rl.on('line', (line) => {
 
   data.push(num);
 
+   if (data.length <= 1) return;
+
   const windowSize = 4;
   const startIdx = data.length > windowSize ? data.length - windowSize : 0;
   const recentData = data.slice(startIdx);
@@ -32,8 +34,8 @@ rl.on('line', (line) => {
 
   const stdDev = Math.sqrt(variance);
 
-  const x = Math.round(avg - 1.2 * stdDev);
-  const y = Math.round(avg + 1.2 * stdDev);
+  let x = avg - stdDev;
+  let y = avg + stdDev;
 
   console.log(`${x} ${y}`);
 });
